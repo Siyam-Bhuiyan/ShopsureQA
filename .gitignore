@@ -1,0 +1,47 @@
+# --- Node / npm ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# --- Playwright ---
+07-automation/playwright/test-results/
+07-automation/playwright/playwright-report/
+07-automation/playwright/blob-report/
+07-automation/playwright/.cache/
+**/test-results/
+**/playwright-report/
+
+# --- Newman / Postman ---
+05-api-testing/newman/
+newman/
+*.newman-report.html
+
+# --- Java / JMeter ---
+*.class
+*.jar
+08-performance/jmeter/*.log
+08-performance/jmeter/results/
+08-performance/jmeter/*.jtl
+
+# --- OWASP ZAP ---
+09-security/*.html
+09-security/*.json
+09-security/raw-output/
+!09-security/zap-baseline-report.md
+
+# --- IDE / OS files ---
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- Env / secrets ---
+.env
+.env.local
+*.pem
+
+# --- Logs ---
+*.log
+logs/
